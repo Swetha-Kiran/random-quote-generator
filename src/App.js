@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/App.css";
+import "./App.css";
 import { useState,useEffect, } from "react";
 
 
@@ -13,9 +13,8 @@ const App = () => {
     setNewquote(newData);
 };
  
-
   useEffect(() => {
-
+    
   fetchData();
     
   },[]);
