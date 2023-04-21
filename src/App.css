@@ -9,9 +9,9 @@
 body {
     background-color: '#16a085';
     background-image: url("https://img.freepik.com/premium-photo/green-leaf-using-as-background-wallpaper-nature-concept_103077-12.jpg");
-       background-repeat: no-repeat;
-       background-size: cover;
-  
+    background-repeat: no-repeat;
+    background-size: cover;
+
     font-weight: 400;
     display: flex;
     justify-content: center;
@@ -21,30 +21,28 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.card-header
-{
+.card-header {
     font-size: 50px;
     text-align: center;
-    color:rgb(202, 75, 20);
+    color: rgb(202, 75, 20);
 
 }
-.card-text
-{
+
+.card-text {
     font-size: 30px;
     font-style: italic;
     text-align: justify;
-  
+
 }
-.card-title
-{
+
+.card-title {
     font-size: 20px;
     font-style: italic;
-    color:white;
+    color: white;
     text-align: end;
 }
 
-.button
-{
+.button {
     align-items: center;
     justify-content: center;
 }
