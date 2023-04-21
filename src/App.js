@@ -22,18 +22,21 @@ const App = () => {
 
     return (
       <div id="main">
-       
-         <div id="wrapper">
-         <button id="new-quote" className="button" onClick={fetchData}>New Quote</button>
-          <div className="quote-text">
-                {quote.content}
-          </div>
-         <div className="quote-author">
-                {quote.author}
-          </div>
-        
-          </div>      
-      </div>
+       <div class="card-header">
+      Inspiring Quotes!!
+  </div>
+  <div class="card-body">
+      <p class="card-text"> {quote.content}</p>
+    <h5 class="card-title"> {quote.author}</h5>
+    <button type="button" class="btn btn-success" onClick={fetchData}>Generate New Quote</button>
+  </div>
+ 
+
+
+</div>
+          
+               
+ 
     );
 };
 
