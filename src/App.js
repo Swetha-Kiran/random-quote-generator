@@ -14,7 +14,7 @@ const App = () => {
 };
  
   useEffect(() => {
-    
+
   fetchData();
     
   },[]);
@@ -24,13 +24,14 @@ const App = () => {
       <div id="main">
        
          <div id="wrapper">
+         <button id="new-quote" className="button" onClick={fetchData}>New Quote</button>
           <div className="quote-text">
                 {quote.content}
           </div>
          <div className="quote-author">
                 {quote.author}
           </div>
-          <button id="new-quote" className="button" onClick={fetchData}>New Quote</button>
+        
           </div>      
       </div>
     );
